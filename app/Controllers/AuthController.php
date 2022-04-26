@@ -19,9 +19,10 @@ class AuthController extends BaseController
             'username' => [
                 'rules' => 'required',
                 'errors' => [
-                    'required' => 'Username harus diisi.'
+                    'required' => 'Username harus diinput'
                 ]
             ],
+            
             'password' => [
                 'rules' => 'required',
                 'errors' => [
